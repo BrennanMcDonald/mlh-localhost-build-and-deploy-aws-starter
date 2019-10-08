@@ -3,8 +3,6 @@ import config
 
 from eventbrite import get_events
 
-from db import Favorite, get_session, database
-
 application = Flask(__name__)
 
 
